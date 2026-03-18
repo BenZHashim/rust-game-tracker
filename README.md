@@ -2,8 +2,6 @@
 
 A lightweight Windows tool that tracks how long you play games each day and alerts you when you hit your self-imposed limits.
 
-Built in Rust as a first Rust project.
-
 ---
 
 ## Features
