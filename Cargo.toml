@@ -2,10 +2,15 @@
 name = "game_tracker"
 version = "0.1.0"
 edition = "2024"
+description = "A lightweight Windows background tool that tracks daily game playtime and alerts you when you hit your limits."
+authors = ["BenZHashim"]
+repository = "https://github.com/BenZHashim/rust-game-tracker"
+license = "MIT"
 
 [dependencies]
+eframe = "0.28"
 sysinfo = "0.30"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-notify-rust = "4.12.0"
+winapi = { version = "0.3", features = ["winuser", "processthreadsapi"] }
 chrono = "0.4.44"

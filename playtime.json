@@ -1,7 +1,10 @@
 {
   "date": "2026-03-16",
   "times": {
-    "claude": 10,
-    "chrome": 10
+    "githubdesktop": 5,
+    "chrome": 95,
+    "claude": 6020,
+    "discovery-d": 3010,
+    "github": 45
   }
 }
